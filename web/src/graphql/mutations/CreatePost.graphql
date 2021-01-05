@@ -1,0 +1,6 @@
+mutation CreatePost($input: PostInput!){
+    Createpost(stuff:$input){
+    title
+    createdAt
+  }
+}

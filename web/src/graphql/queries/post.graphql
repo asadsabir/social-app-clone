@@ -1,0 +1,15 @@
+query Readpost($id: Int!) {
+    Readpost(identifier: $id) {
+        id
+        title
+        text
+        textSnippet
+        voteStatus
+        createdAt
+        points
+        creator{
+            id
+            username
+        }
+    }
+}

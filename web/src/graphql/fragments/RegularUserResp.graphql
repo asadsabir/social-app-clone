@@ -1,0 +1,9 @@
+fragment RegularUserResponse on LoginResponse{
+    user{
+            ...RegularUser
+        }
+        errors{
+            field
+            message
+        }
+}
